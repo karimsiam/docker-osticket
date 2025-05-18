@@ -1,6 +1,6 @@
 ARG DISTRO=debian
 ARG DISTRO_VARIANT=bullseye
-ARG PHP_VERSION=8.2
+ARG PHP_VERSION=8.4
 
 FROM docker.io/tiredofit/nginx-php-fpm:${PHP_VERSION}-${DISTRO}-${DISTRO_VARIANT}
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
